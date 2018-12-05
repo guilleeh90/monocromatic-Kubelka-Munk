@@ -32,7 +32,8 @@ function [R, T, A, ocupacion, saltos_intercapa, tiempo] = funcion_monocromatica(
 %     
 %     tiempo: array de dimensión NT que cuenta el tiempo que pasa el fotón
 %     dentro del material hasta que es absorbido, reflejado o transmitido.
-
+%     Un fotón balístico tarda una unidad de tiempo en pasar de capa a capa,
+%     un fotón difuso tarda dos unidades de tiempo.
 
 NT= 10000;
 PK=zeros(100,1);
